@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8010";
+const API_BASE = "";
 
 export async function getApiKeyStatus(): Promise<{ set: boolean }> {
   const res = await fetch(`${API_BASE}/api/settings/api-key`);
