@@ -129,10 +129,10 @@ export default function VoiceClone() {
           onChange={(e) => setSpeed(parseFloat(e.target.value))}
           style={{ width: "100%" }}
         />
-        <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12, color: "#86868b" }}>
-          <span>慢 (0.5x)</span>
-          <span>正常 (1x)</span>
-          <span>快 (2x)</span>
+        <div style={{ position: "relative", fontSize: 12, color: "#86868b", height: 20 }}>
+          <span style={{ position: "absolute", left: 0 }}>慢 (0.5x)</span>
+          <span style={{ position: "absolute", left: "33%", transform: "translateX(-50%)" }}>正常 (1x)</span>
+          <span style={{ position: "absolute", right: 0 }}>快 (2x)</span>
         </div>
       </div>
 
