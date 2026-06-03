@@ -30,7 +30,12 @@ eVoice/
 pip install -r backend/requirements.txt
 
 # 前端
+
+## linux
 cd frontend && npm install && cd ..
+
+## windows
+cd frontend; npm install; cd ..
 ```
 
 ### 运行
